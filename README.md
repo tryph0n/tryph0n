@@ -6,16 +6,17 @@
 
 For 5 years at Emencia (09/2020 – 06/2025), I designed web applications for research and R&D teams (Constellium, Iconeus, Institut Pasteur, CNRS), from data all the way to HPC cluster computing, and took them to production.
 
-My most significant work: migrating more than 50 Django projects to Kubernetes, as a team of two, with no service interruption.
-
-From September 2025 to March 2026, I completed the "Data Science Designer and Developer" program at Jedha, and I keep working on personal projects in data science and MLOps. The repositories below come from that work.
-
 ## What I do
 
-- **Back-end**: Python, Django, Django REST Framework, FastAPI, SQL, PostgreSQL
-- **DevOps**: Docker, Kubernetes, Helm, GitLab CI/CD, GitHub Actions
-- **Data and ML**: pandas, scikit-learn, PyTorch, MLflow, dbt, Streamlit
-- **Quality**: testing with pytest, code review, documentation
+- **Back-end**: Python, Django, Django REST Framework, FastAPI, Flask, GraphQL, Wagtail; data modeling, REST APIs, role-based access control, async tasks, PDF and Excel exports
+- **Scientific applications**: modular Django platforms for R&D teams, job configurations for an HPC cluster, processing of computation results, interactive charts with Plotly.js, HTMX and Alpine.js
+- **Data**: ETL/ELT pipelines with Pandas and NumPy, SQL and the Django ORM, data migrations between platforms; dbt, dlt and DuckDB in personal projects
+- **DevOps**: Docker and GitLab CI/CD on every project, Kubernetes (kubectl, kubie, k9s), Helm, Rancher, migration of legacy Django projects from Ansible-managed servers to Kubernetes, GCP (GKE, App Engine, Cloud Run), GitHub Actions, K3s
+- **Legacy code**: Python 2 to 3 and Django 1.8 to 3.2 upgrades, refactoring, repair of Django migrations, non-regression tests
+- **Quality**: pytest, Factory Boy, Flake8, Black, isort, Pyright, Pydantic, Poetry, code review, pair programming, technical documentation
+- **Data science and MLOps**: scikit-learn, PyTorch, MLflow, Streamlit, model serving with FastAPI
+- **Databases**: PostgreSQL, Redis, MySQL, ClickHouse
+- **Team**: code audits, mentoring a client's lead developer, training teams on Kubernetes
 
 ## Projects to see first
 
@@ -28,12 +29,6 @@ From September 2025 to March 2026, I completed the "Data Science Designer and De
 | [mltrack](https://github.com/tryph0n/mltrack) | Local MLOps stack to compare models: MLflow, PostgreSQL, S3, dashboard. |
 
 More data projects (NLP, clustering, PySpark, scraping and pipelines) are in my repositories.
-
-## Background
-
-- 09/2020 – 06/2025: Python/Django and DevOps developer, Emencia
-- 09/2025 – 03/2026: Data Science Designer and Developer program, Jedha
-- 2010 – 2019: nearly ten years in real estate feasibility studies and property development, where I learned to meet deadlines and care about client relationships
 
 ## Contact
 
